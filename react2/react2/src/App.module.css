@@ -8,11 +8,14 @@ body{
 
 
 }
-
-button{
- background-color: rgb(255, 255, 255);   
- width: 100px;
- height: 100px;
- font-size: large;
-
+div{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(135, 135, 172);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
+
