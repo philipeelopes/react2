@@ -1,25 +1,23 @@
+import {useState, useEffect} from 'react'
+
+
 
 import './App.module.css'
-import { Card } from './incio/Card'
-
 
 
 
 
 export function App() {
+  const [count, setCount] = useState(0)
+
+  console.log('');
 
   return (
     <div>
 
-      ola
-
-
-
-      <Card title='Teste'>
-        conteudo do card
-      </Card>
-
-
+      <button onClick={() => setCount((count) => count + 1)} >
+        {count}
+        </button>
     </div>
 
 
